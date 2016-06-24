@@ -13,6 +13,21 @@ IBM Globalization Pipeline is a DevOps integrated application translation manage
 This repository contains common files and information for the
 [IBM Globalization Pipeline](https://www.ng.bluemix.net/docs/#services/GlobalizationPipeline/index.html) service and related tools.
 
+
+<!-- the download anchor is required for backwards compatibility  -->
+SDKs and Plug-ins<a name="download"></a>
+----------------------------------------
+
+There are a number of SDKs/Plug-ins available for this service. Select one below for more details on how to use it.
+
+* Python: [SDK](https://github.com/IBM-Bluemix/gp-python-client)
+* Java: [SDK](https://github.com/IBM-Bluemix/gp-java-client) | [Tools](https://github.com/IBM-Bluemix/gp-java-tools)
+* Angular: [SDK](https://github.com/IBM-Bluemix/gp-angular-client)
+* Node.js: [SDK](https://github.com/IBM-Bluemix/gp-js-client) | [Sample](https://github.com/IBM-Bluemix/gp-nodejs-sample)
+* Cordova: [SDK](https://github.com/IBM-Bluemix/gp-cordova-plugin)
+* Ruby: [SDK](https://github.com/IBM-Bluemix/gp-ruby-client) | [Sample](https://github.com/IBM-Bluemix/gp-ruby-sample)
+* Urban Code Deploy: [Plugin](https://github.com/IBM-Bluemix/gp-ucd-plugin)
+
 Quick Start Guide
 -----------------
 Below are some steps to help you quickly get started. For more detailed information about the service, please visit the official [Globalization Pipeline  documentation](https://console.ng.bluemix.net/docs/services/GlobalizationPipeline/index.html) page.
@@ -21,8 +36,6 @@ Below are some steps to help you quickly get started. For more detailed informat
 
 ### 1. Create a new Globalization Pipeline service instance
 Head to the [Bluemix Catalog](https://new-console.ng.bluemix.net/catalog/) and look for the Globalization Pipeline service - it should be under the DevOps category.
-
-**Note:** if you see two catalog entries for Globalization Pipeline, ignore the *Beta* one since it will be removed soon.
 
 ![Bluemix Catalog](images/catalog.png "Globalization Pipeline")
 
@@ -75,7 +88,7 @@ You can now click on one of the Target languages to view the  translated message
 
 ![Translated Messages](images/translated-messages.png "Translated Messages")
 
-You can now download the translated messages by clicking the **DOWNLOAD** button. Or you can access the translated messages directly in your app by using one of the SDKs or Plug-ins. To get started, head to the [SDKs and Plug-ins section](#download) below.
+You can now download the translated messages by clicking the **DOWNLOAD** button. Or you can access the translated messages directly in your app by using one of the SDKs or Plug-ins. To get started, head to the [SDKs and Plug-ins](#download) section.
 
 ### 4. Credentials
 In order to access the service instance through the RESTful API, SDKs, or Plug-ins, you will need to provide the necessary credentials. To see the credentials, find the service instance in the Bluemix dashboard and click **View Credentials**:
@@ -88,23 +101,9 @@ In order to access the service instance through the RESTful API, SDKs, or Plug-i
 
 **Caution!** The default credentials shown above provide complete access to the service instance, including the ability to delete and modify bundles. When you are using the service in a production app, it is recommended that you create a new **Reader** account through the **API Users** tab. The Reader account can only read bundle data.
 
-<!-- the download anchor is required for backwards compatibility  -->
-SDKs and Plug-ins<a name="download"></a>
-----------------------------------------
-
-There are a number of SDKs/Plug-ins available for this service. Select one below for more details on how to use it.
-
-* Python: [SDK](https://github.com/IBM-Bluemix/gp-python-client)
-* Java: [SDK](https://github.com/IBM-Bluemix/gp-java-client) | [Tools](https://github.com/IBM-Bluemix/gp-java-tools)
-* Angular: [SDK](https://github.com/IBM-Bluemix/gp-angular-client)
-* Node.js: [SDK](https://github.com/IBM-Bluemix/gp-js-client) | [Sample](https://github.com/IBM-Bluemix/gp-nodejs-sample)
-* Cordova: [SDK](https://github.com/IBM-Bluemix/gp-cordova-plugin)
-* Ruby: [SDK](https://github.com/IBM-Bluemix/gp-ruby-client) | [Sample](https://github.com/IBM-Bluemix/gp-ruby-sample)
-* Urban Code Deploy: [Plugin](https://github.com/IBM-Bluemix/gp-ucd-plugin)
-
 Contributing
 ------------
-see [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 License
 -------
